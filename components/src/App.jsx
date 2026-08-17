@@ -46,8 +46,10 @@ function App() {
   return (
     <div className='min-h-screen bg-black p-10'>
       <div className='flex flex-wrap gap-5 justify-center'>
-        {jobs.map(function(elem){
-          return <Card company={elem.company} role={elem.role} pay={elem.pay} location={elem.location} image={elem.image}/>
+        {jobs.map(function(elem, idx){
+          return <div key={idx}>
+            return <Card company={elem.company} role={elem.role} pay={elem.pay} location={elem.location} image={elem.image}/>
+          </div>
         })}
       </div>
     </div>
