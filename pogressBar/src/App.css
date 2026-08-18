@@ -1,0 +1,17 @@
+.App{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.outer{
+  border: 1px solid black
+
+}
+
+.inner{
+  width: 50%;
+  background-color: green;
+  color: white;
+  text-align: right;
+  transition: 0.5s ease-in;
+}
